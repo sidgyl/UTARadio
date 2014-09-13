@@ -1,427 +1,922 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		CD2EA95919C3BE6300DBAAAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2EA95819C3BE6300DBAAAC /* main.m */; };
-		CD2EA95C19C3BE6300DBAAAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2EA95B19C3BE6300DBAAAC /* AppDelegate.m */; };
-		CD2EA95F19C3BE6300DBAAAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2EA95E19C3BE6300DBAAAC /* ViewController.m */; };
-		CD2EA96219C3BE6300DBAAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2EA96019C3BE6300DBAAAC /* Main.storyboard */; };
-		CD2EA96419C3BE6300DBAAAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2EA96319C3BE6300DBAAAC /* Images.xcassets */; };
-		CD2EA96719C3BE6300DBAAAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2EA96519C3BE6300DBAAAC /* LaunchScreen.xib */; };
-		CD2EA97319C3BE6300DBAAAC /* UTARadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2EA97219C3BE6300DBAAAC /* UTARadioTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CD2EA96D19C3BE6300DBAAAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD2EA94B19C3BE6200DBAAAC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD2EA95219C3BE6300DBAAAC;
-			remoteInfo = UTARadio;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		CD2EA95319C3BE6300DBAAAC /* UTARadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTARadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD2EA95719C3BE6300DBAAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD2EA95819C3BE6300DBAAAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CD2EA95A19C3BE6300DBAAAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CD2EA95B19C3BE6300DBAAAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD2EA95D19C3BE6300DBAAAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD2EA95E19C3BE6300DBAAAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CD2EA96119C3BE6300DBAAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD2EA96319C3BE6300DBAAAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CD2EA96619C3BE6300DBAAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CD2EA96C19C3BE6300DBAAAC /* UTARadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTARadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD2EA97119C3BE6300DBAAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD2EA97219C3BE6300DBAAAC /* UTARadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTARadioTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		CD2EA95019C3BE6300DBAAAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD2EA96919C3BE6300DBAAAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		CD2EA94A19C3BE6200DBAAAC = {
-			isa = PBXGroup;
-			children = (
-				CD2EA95519C3BE6300DBAAAC /* UTARadio */,
-				CD2EA96F19C3BE6300DBAAAC /* UTARadioTests */,
-				CD2EA95419C3BE6300DBAAAC /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		CD2EA95419C3BE6300DBAAAC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD2EA95319C3BE6300DBAAAC /* UTARadio.app */,
-				CD2EA96C19C3BE6300DBAAAC /* UTARadioTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CD2EA95519C3BE6300DBAAAC /* UTARadio */ = {
-			isa = PBXGroup;
-			children = (
-				CD2EA95A19C3BE6300DBAAAC /* AppDelegate.h */,
-				CD2EA95B19C3BE6300DBAAAC /* AppDelegate.m */,
-				CD2EA95D19C3BE6300DBAAAC /* ViewController.h */,
-				CD2EA95E19C3BE6300DBAAAC /* ViewController.m */,
-				CD2EA96019C3BE6300DBAAAC /* Main.storyboard */,
-				CD2EA96319C3BE6300DBAAAC /* Images.xcassets */,
-				CD2EA96519C3BE6300DBAAAC /* LaunchScreen.xib */,
-				CD2EA95619C3BE6300DBAAAC /* Supporting Files */,
-			);
-			path = UTARadio;
-			sourceTree = "<group>";
-		};
-		CD2EA95619C3BE6300DBAAAC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD2EA95719C3BE6300DBAAAC /* Info.plist */,
-				CD2EA95819C3BE6300DBAAAC /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CD2EA96F19C3BE6300DBAAAC /* UTARadioTests */ = {
-			isa = PBXGroup;
-			children = (
-				CD2EA97219C3BE6300DBAAAC /* UTARadioTests.m */,
-				CD2EA97019C3BE6300DBAAAC /* Supporting Files */,
-			);
-			path = UTARadioTests;
-			sourceTree = "<group>";
-		};
-		CD2EA97019C3BE6300DBAAAC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD2EA97119C3BE6300DBAAAC /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		CD2EA95219C3BE6300DBAAAC /* UTARadio */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD2EA97619C3BE6300DBAAAC /* Build configuration list for PBXNativeTarget "UTARadio" */;
-			buildPhases = (
-				CD2EA94F19C3BE6300DBAAAC /* Sources */,
-				CD2EA95019C3BE6300DBAAAC /* Frameworks */,
-				CD2EA95119C3BE6300DBAAAC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UTARadio;
-			productName = UTARadio;
-			productReference = CD2EA95319C3BE6300DBAAAC /* UTARadio.app */;
-			productType = "com.apple.product-type.application";
-		};
-		CD2EA96B19C3BE6300DBAAAC /* UTARadioTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD2EA97919C3BE6300DBAAAC /* Build configuration list for PBXNativeTarget "UTARadioTests" */;
-			buildPhases = (
-				CD2EA96819C3BE6300DBAAAC /* Sources */,
-				CD2EA96919C3BE6300DBAAAC /* Frameworks */,
-				CD2EA96A19C3BE6300DBAAAC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD2EA96E19C3BE6300DBAAAC /* PBXTargetDependency */,
-			);
-			name = UTARadioTests;
-			productName = UTARadioTests;
-			productReference = CD2EA96C19C3BE6300DBAAAC /* UTARadioTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		CD2EA94B19C3BE6200DBAAAC /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = mobi;
-				TargetAttributes = {
-					CD2EA95219C3BE6300DBAAAC = {
-						CreatedOnToolsVersion = 6.0;
-					};
-					CD2EA96B19C3BE6300DBAAAC = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = CD2EA95219C3BE6300DBAAAC;
-					};
-				};
-			};
-			buildConfigurationList = CD2EA94E19C3BE6200DBAAAC /* Build configuration list for PBXProject "UTARadio" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = CD2EA94A19C3BE6200DBAAAC;
-			productRefGroup = CD2EA95419C3BE6300DBAAAC /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				CD2EA95219C3BE6300DBAAAC /* UTARadio */,
-				CD2EA96B19C3BE6300DBAAAC /* UTARadioTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		CD2EA95119C3BE6300DBAAAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD2EA96219C3BE6300DBAAAC /* Main.storyboard in Resources */,
-				CD2EA96719C3BE6300DBAAAC /* LaunchScreen.xib in Resources */,
-				CD2EA96419C3BE6300DBAAAC /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD2EA96A19C3BE6300DBAAAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		CD2EA94F19C3BE6300DBAAAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD2EA95F19C3BE6300DBAAAC /* ViewController.m in Sources */,
-				CD2EA95C19C3BE6300DBAAAC /* AppDelegate.m in Sources */,
-				CD2EA95919C3BE6300DBAAAC /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD2EA96819C3BE6300DBAAAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD2EA97319C3BE6300DBAAAC /* UTARadioTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CD2EA96E19C3BE6300DBAAAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD2EA95219C3BE6300DBAAAC /* UTARadio */;
-			targetProxy = CD2EA96D19C3BE6300DBAAAC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CD2EA96019C3BE6300DBAAAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD2EA96119C3BE6300DBAAAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CD2EA96519C3BE6300DBAAAC /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD2EA96619C3BE6300DBAAAC /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		CD2EA97419C3BE6300DBAAAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		CD2EA97519C3BE6300DBAAAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CD2EA97719C3BE6300DBAAAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UTARadio/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		CD2EA97819C3BE6300DBAAAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UTARadio/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		CD2EA97A19C3BE6300DBAAAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = UTARadioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTARadio.app/UTARadio";
-			};
-			name = Debug;
-		};
-		CD2EA97B19C3BE6300DBAAAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = UTARadioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTARadio.app/UTARadio";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		CD2EA94E19C3BE6200DBAAAC /* Build configuration list for PBXProject "UTARadio" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD2EA97419C3BE6300DBAAAC /* Debug */,
-				CD2EA97519C3BE6300DBAAAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD2EA97619C3BE6300DBAAAC /* Build configuration list for PBXNativeTarget "UTARadio" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD2EA97719C3BE6300DBAAAC /* Debug */,
-				CD2EA97819C3BE6300DBAAAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		CD2EA97919C3BE6300DBAAAC /* Build configuration list for PBXNativeTarget "UTARadioTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD2EA97A19C3BE6300DBAAAC /* Debug */,
-				CD2EA97B19C3BE6300DBAAAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = CD2EA94B19C3BE6200DBAAAC /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0265F5DB900541D79B942257</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D21AA1AA37B8449DBE6A7B34</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>32A0A7F46EF342D2A4074EB0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>32C7037C5FF649AFAE0D5B69</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>442AB6A6C8C440F9A17F9D82</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>60DA2A6F047549F19B2ACA73</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D21AA1AA37B8449DBE6A7B34</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA94A19C3BE6200DBAAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD2EA95519C3BE6300DBAAAC</string>
+				<string>CD2EA96F19C3BE6300DBAAAC</string>
+				<string>CD2EA95419C3BE6300DBAAAC</string>
+				<string>442AB6A6C8C440F9A17F9D82</string>
+				<string>60DA2A6F047549F19B2ACA73</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA94B19C3BE6200DBAAAC</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0600</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>mobi</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>CD2EA95219C3BE6300DBAAAC</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.0</string>
+					</dict>
+					<key>CD2EA96B19C3BE6300DBAAAC</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.0</string>
+						<key>TestTargetID</key>
+						<string>CD2EA95219C3BE6300DBAAAC</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>CD2EA94E19C3BE6200DBAAAC</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>CD2EA94A19C3BE6200DBAAAC</string>
+			<key>productRefGroup</key>
+			<string>CD2EA95419C3BE6300DBAAAC</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>CD2EA95219C3BE6300DBAAAC</string>
+				<string>CD2EA96B19C3BE6300DBAAAC</string>
+			</array>
+		</dict>
+		<key>CD2EA94E19C3BE6200DBAAAC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CD2EA97419C3BE6300DBAAAC</string>
+				<string>CD2EA97519C3BE6300DBAAAC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CD2EA94F19C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CD2EA95F19C3BE6300DBAAAC</string>
+				<string>CD2EA95C19C3BE6300DBAAAC</string>
+				<string>CD2EA95919C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CD2EA95019C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0265F5DB900541D79B942257</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CD2EA95119C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CD2EA96219C3BE6300DBAAAC</string>
+				<string>CD2EA96719C3BE6300DBAAAC</string>
+				<string>CD2EA96419C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CD2EA95219C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>CD2EA97619C3BE6300DBAAAC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>32C7037C5FF649AFAE0D5B69</string>
+				<string>CD2EA94F19C3BE6300DBAAAC</string>
+				<string>CD2EA95019C3BE6300DBAAAC</string>
+				<string>CD2EA95119C3BE6300DBAAAC</string>
+				<string>32A0A7F46EF342D2A4074EB0</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>UTARadio</string>
+			<key>productName</key>
+			<string>UTARadio</string>
+			<key>productReference</key>
+			<string>CD2EA95319C3BE6300DBAAAC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>CD2EA95319C3BE6300DBAAAC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>UTARadio.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>CD2EA95419C3BE6300DBAAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD2EA95319C3BE6300DBAAAC</string>
+				<string>CD2EA96C19C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA95519C3BE6300DBAAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD2EA95A19C3BE6300DBAAAC</string>
+				<string>CD2EA95B19C3BE6300DBAAAC</string>
+				<string>CD2EA95D19C3BE6300DBAAAC</string>
+				<string>CD2EA95E19C3BE6300DBAAAC</string>
+				<string>CD2EA96019C3BE6300DBAAAC</string>
+				<string>CD2EA96319C3BE6300DBAAAC</string>
+				<string>CD2EA96519C3BE6300DBAAAC</string>
+				<string>CD2EA95619C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>UTARadio</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA95619C3BE6300DBAAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD2EA95719C3BE6300DBAAAC</string>
+				<string>CD2EA95819C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA95719C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA95819C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA95919C3BE6300DBAAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD2EA95819C3BE6300DBAAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CD2EA95A19C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA95B19C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA95C19C3BE6300DBAAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD2EA95B19C3BE6300DBAAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CD2EA95D19C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA95E19C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA95F19C3BE6300DBAAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD2EA95E19C3BE6300DBAAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CD2EA96019C3BE6300DBAAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD2EA96119C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA96119C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA96219C3BE6300DBAAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD2EA96019C3BE6300DBAAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CD2EA96319C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA96419C3BE6300DBAAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD2EA96319C3BE6300DBAAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CD2EA96519C3BE6300DBAAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD2EA96619C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA96619C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA96719C3BE6300DBAAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD2EA96519C3BE6300DBAAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CD2EA96819C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CD2EA97319C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CD2EA96919C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CD2EA96A19C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CD2EA96B19C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>CD2EA97919C3BE6300DBAAAC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>CD2EA96819C3BE6300DBAAAC</string>
+				<string>CD2EA96919C3BE6300DBAAAC</string>
+				<string>CD2EA96A19C3BE6300DBAAAC</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>CD2EA96E19C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>UTARadioTests</string>
+			<key>productName</key>
+			<string>UTARadioTests</string>
+			<key>productReference</key>
+			<string>CD2EA96C19C3BE6300DBAAAC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>CD2EA96C19C3BE6300DBAAAC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>UTARadioTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>CD2EA96D19C3BE6300DBAAAC</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>CD2EA94B19C3BE6200DBAAAC</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>CD2EA95219C3BE6300DBAAAC</string>
+			<key>remoteInfo</key>
+			<string>UTARadio</string>
+		</dict>
+		<key>CD2EA96E19C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>CD2EA95219C3BE6300DBAAAC</string>
+			<key>targetProxy</key>
+			<string>CD2EA96D19C3BE6300DBAAAC</string>
+		</dict>
+		<key>CD2EA96F19C3BE6300DBAAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD2EA97219C3BE6300DBAAAC</string>
+				<string>CD2EA97019C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>UTARadioTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA97019C3BE6300DBAAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD2EA97119C3BE6300DBAAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA97119C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA97219C3BE6300DBAAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UTARadioTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD2EA97319C3BE6300DBAAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD2EA97219C3BE6300DBAAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CD2EA97419C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>CD2EA97519C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>CD2EA97619C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CD2EA97719C3BE6300DBAAAC</string>
+				<string>CD2EA97819C3BE6300DBAAAC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CD2EA97719C3BE6300DBAAAC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>442AB6A6C8C440F9A17F9D82</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>UTARadio/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>CD2EA97819C3BE6300DBAAAC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>442AB6A6C8C440F9A17F9D82</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>UTARadio/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>CD2EA97919C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CD2EA97A19C3BE6300DBAAAC</string>
+				<string>CD2EA97B19C3BE6300DBAAAC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CD2EA97A19C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>UTARadioTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/UTARadio.app/UTARadio</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>CD2EA97B19C3BE6300DBAAAC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>UTARadioTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/UTARadio.app/UTARadio</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D21AA1AA37B8449DBE6A7B34</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>CD2EA94B19C3BE6200DBAAAC</string>
+</dict>
+</plist>
